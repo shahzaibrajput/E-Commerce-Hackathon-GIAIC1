@@ -14,7 +14,7 @@ const About = () => {
         className="relative bg-cover bg-center w-full h-[277px] bg-[#FFFFFF]" 
         style={{ backgroundImage: "url('path_to_your_image.jpg')" }} 
       > 
-        <div className="absolute inset-0 bg-[#FFFFFF] w-full h-full mt-[52px] ml-24"></div> 
+        <div className="absolute inset-0 bg-[#FFFFFF] w-full sm:w-[80%] md:w-[70%] lg:w-[60%] h-full mt-[52px] ml-6 sm:ml-12 md:ml-16 lg:ml-24"></div> 
         <div className="container mx-auto px-4 py-24 w-full flex justify-between items-center relative text-center text-[#2A254B]"> 
           {/* Text Section */}
           <div className="text-left w-3/4 p-4"> 
@@ -26,7 +26,7 @@ const About = () => {
           </div> 
 
           {/* Button Section */}
-          <div className="w-1/4 text-right"> 
+          <div className=" text-right w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center items-center mx-auto"> 
             <button className="bg-[#F9F9F9] w-[192px] h-[56px] text-[#2A254B] p-4 text-lg hover:bg-black hover:text-white"> 
               View our products 
             </button> 
@@ -160,7 +160,7 @@ const About = () => {
       {/* Signup Section */}
       <section 
         className="relative bg-cover bg-center w-full h-[481px] md:h-[550px]" 
-        style={{ backgroundImage: "url('path_to_your_image.jpg')" }} 
+        style={{ backgroundImage: "url('bg1.jpg')" }} 
       > 
         <div className="absolute inset-0 bg-black opacity-50"></div> 
         <div className="container mx-auto px-4 py-24 flex justify-center items-center"> 
@@ -172,7 +172,7 @@ const About = () => {
               Subscribe to our newsletter for the latest updates 
             </p> 
 
-            <div className="flex justify-center items-center gap-4"> 
+            <div className="flex justify-center items-center gap-4 md:flex md:justify-center  md:items-center"> 
               <input 
                 type="text" 
                 placeholder="Your email" 

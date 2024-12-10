@@ -4,16 +4,16 @@ import Image from 'next/image'; // Import Next.js Image component
 const ProductListing = () => {
   return (
     <div className='w-full h-auto text-[#FFFFFF] bg-[#FAFAFA] mt-11'>
-      <div className="bg-[#FAFAFA] w-full h-[260px] shadow-lg">
+     <div className="bg-[#FAFAFA] w-full h-[260px] shadow-lg ">
         <Image
           src="/frame.png"
           alt="Chair"
           layout="responsive" // Ensures the image is responsive
-          width={1920} // Set a large width for responsive image handling
+          width={1910} // Set a large width for responsive image handling
           height={260} // Keep the height as per the original ratio
-          className="object-cover mb-4 ml-6 sm:ml-1 lg:ml-9"
+          className="object-cover mb-4 ml-4 sm:ml-0 md:ml-0  "
         />
-      </div>
+      </div>   
       
       {/* Product list section */}
       <div className='w-full text-[#FFFFFF] bg-[#FAFAFA]'>

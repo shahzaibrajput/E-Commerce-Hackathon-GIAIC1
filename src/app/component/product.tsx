@@ -13,7 +13,7 @@ const Product = () => {
           </h3>
 
           {/* Responsive Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 justify-center">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
             {/* First Product */}
             <div className="bg-[#FAFAFA] w-full h-auto shadow-lg p-4 rounded-lg">
               <Image

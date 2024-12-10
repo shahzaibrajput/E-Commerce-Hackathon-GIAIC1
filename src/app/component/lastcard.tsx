@@ -19,7 +19,7 @@ const CardLast = () => {
           </div>
 
           {/* Text Section */}
-          <div className="flex flex-col justify-center items-start text-[#2A254B] w-full md:w-1/2">
+          <div className="flex flex-col justify-center items-start text-[#2A254B] w-full md:w-1/3 ">
             <h2 className="text-2xl sm:text-3xl font-normal leading-snug mb-4 sm:p-7 sm:ml-8">
               From a studio in London to a global brand with over 400 outlets
             </h2>

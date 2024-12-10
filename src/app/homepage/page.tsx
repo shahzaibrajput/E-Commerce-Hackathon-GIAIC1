@@ -16,17 +16,21 @@ const HomePage = () => {
         </div>
 
         {/* Content Section */}
-        <div className="relative container mx-auto flex items-center justify-center h-full px-5 lg:ml-96">
-          <div className="w-full sm:w-[500px] bg-white p-8 shadow-lg text-center">
-            <h2 className="text-2xl sm:text-4xl font-medium mb-6">
-              Luxury homeware for people who love timeless design quality</h2>
-            <p className="mt-6 text-lg leading-relaxed">
-              Shop the new Spring 2022 collection today</p>
-            <button className="mt-6 p-3 px-6 bg-[#F9F9F926] border border-[#22202E] text-[#22202E] hover:bg-[#22202E] hover:text-white transition">
-              View collection
-            </button>
-          </div>
-        </div>
+        <div className="relative container mx-auto flex items-center justify-center h-full px-5">
+  <div className="w-full sm:w-[500px] bg-white p-8 shadow-lg text-center md:ml-auto md:mr-[5%] lg:ml-auto lg:mr-[5%]">
+    <h2 className="text-2xl sm:text-4xl font-medium mb-6">
+      Luxury homeware for people who love timeless design quality
+    </h2>
+    <p className="mt-6 text-lg leading-relaxed">
+      Shop the new Spring 2022 collection today
+    </p>
+    <button className="mt-6 p-3 px-6 bg-[#F9F9F926] border border-[#22202E] text-[#22202E] hover:bg-[#22202E] hover:text-white transition">
+      View collection
+    </button>
+  </div>
+</div>
+
+
       </section>
 
       {/* Features Section */}
@@ -125,7 +129,7 @@ const HomePage = () => {
           </div>
 
           {/* Image Section */}
-          <div className="sm:w-1/2 w-full flex justify-center items-center">
+          <div className="sm:w-1/2 md:w-1/3 lg:w-1/4  w-full flex justify-center items-center   ">
             <Image
               className="object-cover rounded-lg max-w-full h-auto"
               alt="hero"
@@ -139,7 +143,7 @@ const HomePage = () => {
 
       {/* Signup Section */}
       <section className="relative bg-cover bg-center w-full h-[444px]">
-        <div className="absolute inset-0 bg-[#FFFFFF] w-[1693px] h-[364px] mt-[52px] ml-24 sm:ml-0" style={{ backgroundImage: "url('/sofa.png')" }}></div>
+        <div className="absolute inset-0 bg-[#FFFFFF] w-full ml:w-[640px] h-[364px] mt-[52px] ml-24 sm:ml-0" style={{ backgroundImage: "url('/sofa.png')" }}></div>
         <div className="container mx-auto px-5 py-24 w-full sm:w-[571px] h-[114px] relative text-center text-[#2A254B]">
           <h2 className="text-4xl font-semibold mb-2 text-[#FAFAFA]">Join the club and get the benefits</h2>
           <p className="text-lg mb-6 text-[#FAFAFA]">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop-up stores, and more</p>
@@ -159,9 +163,9 @@ const HomePage = () => {
             </label>
           </div>
 
-          <div className="flex flex-col sm:flex-row justify-center items-center">
+          <div className="flex flex-col sm:flex-row sm:w-1/2  md:w-1/3  lg:w-1/4  justify-center items-center mx-auto">
             <input type="email" placeholder="Enter your email" className="px-4 py-3 mb-4 sm:mb-0 rounded-md w-[320px] sm:w-[500px]" />
-            <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md">Subscribe</button>
+            <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md ">Subscribe</button>
           </div>
         </div>
       </section>

@@ -169,11 +169,11 @@ const ProductTwo = () => {
           </div>
 
           {/* Email input and button */}
-          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4 ">
             <input
               type="email"
               placeholder="your@email.com"
-              className="w-full md:w-96 p-4 text-lg bg-[#F9F9F9] mb-4 md:mb-0 rounded-md border border-[#ddd]"
+              className="w-full md:w-36 p-4 text-lg bg-[#F9F9F9] mb-4 md:mb-0 rounded-md border border-[#ddd] "
             />
             <button className="bg-[#2A254B] w-full md:w-auto h-[59px] px-8 text-center text-white text-lg rounded-md hover:bg-[#1d1a35]">
               Sign Up
