@@ -17,18 +17,18 @@ const HomePage = () => {
 
         {/* Content Section */}
         <div className="relative container mx-auto flex items-center justify-center h-full px-5">
-  <div className="w-full sm:w-[500px] bg-white p-8 shadow-lg text-center md:ml-auto md:mr-[5%] lg:ml-auto lg:mr-[5%]">
-    <h2 className="text-2xl sm:text-4xl font-medium mb-6">
-      Luxury homeware for people who love timeless design quality
-    </h2>
-    <p className="mt-6 text-lg leading-relaxed">
-      Shop the new Spring 2022 collection today
-    </p>
-    <button className="mt-6 p-3 px-6 bg-[#F9F9F926] border border-[#22202E] text-[#22202E] hover:bg-[#22202E] hover:text-white transition">
-      View collection
-    </button>
-  </div>
-</div>
+          <div className="w-full sm:w-[500px] bg-white p-8 shadow-lg text-center md:ml-auto md:mr-[5%] lg:ml-auto lg:mr-[5%]">
+            <h2 className="text-2xl sm:text-4xl font-medium mb-6">
+              Luxury homeware for people who love timeless design quality
+            </h2>
+            <p className="mt-6 text-lg leading-relaxed">
+              Shop the new Spring 2022 collection today
+            </p>
+            <button className="mt-6 p-3 px-6 bg-[#F9F9F926] border border-[#22202E] text-[#22202E] hover:bg-[#22202E] hover:text-white transition">
+              View collection
+            </button>
+          </div>
+        </div>
 
 
       </section>
@@ -141,18 +141,18 @@ const HomePage = () => {
         </div>
       </section>
 
-     {/* Signup Section */}
-<section className="relative bg-cover bg-center w-full h-[444px]">
+      {/* Signup Section */}
+      <section className="relative bg-cover bg-center w-full h-[444px]">
   <div
-    className="absolute inset-0 w-full ml:w-[640px] h-[364px] mt-[52px] ml-24 sm:ml-0"
+    className="absolute inset-0 w-full h-[364px] mt-[52px]"
     style={{
       backgroundImage: "url('/bg1.jpg')",
-      backgroundSize: "cover", // Image ko container ke andar fit karne ke liye
-      backgroundPosition: "center", // Image ko center align karne ke liye
-      backgroundRepeat: "no-repeat", // Repeat ko disable karne ke liye
+      backgroundSize: "cover", // Image container ke andar fit hogi
+      backgroundPosition: "center", // Image ko center align kiya gaya
+      backgroundRepeat: "no-repeat", // Image repeat nahi hogi
     }}
   ></div>
-  <div className="container mx-auto px-5 py-24 w-full sm:w-[571px] h-[114px] relative text-center text-[#2A254B]">
+  <div className="container mx-auto px-5 py-24 w-full sm:w-[571px] relative text-center text-[#2A254B]">
     <h2 className="text-4xl font-semibold mb-2 text-[#FAFAFA]">
       Join the club and get the benefits
     </h2>
@@ -161,7 +161,7 @@ const HomePage = () => {
       sales, pop-up stores, and more
     </p>
 
-    <div className="flex justify-center mb-6 space-x-6">
+    <div className="flex flex-wrap justify-center mb-6 gap-4">
       <label className="flex items-center">
         <input
           type="radio"
@@ -192,14 +192,15 @@ const HomePage = () => {
       <input
         type="email"
         placeholder="Enter your email"
-        className="px-4 py-3 mb-4 sm:mb-0 rounded-md w-[320px] sm:w-[500px]"
+        className="px-4 py-3 mb-4 sm:mb-0 rounded-md w-full sm:w-[500px]"
       />
-      <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md ">
+      <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md w-full sm:w-auto">
         Subscribe
       </button>
     </div>
   </div>
 </section>
+
 
     </div>
   );
