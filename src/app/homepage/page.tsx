@@ -141,34 +141,66 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Signup Section */}
-      <section className="relative bg-cover bg-center w-full h-[444px]">
-        <div className="absolute inset-0 bg-[#FFFFFF] w-full ml:w-[640px] h-[364px] mt-[52px] ml-24 sm:ml-0" style={{ backgroundImage: "url('/sofa.png')" }}></div>
-        <div className="container mx-auto px-5 py-24 w-full sm:w-[571px] h-[114px] relative text-center text-[#2A254B]">
-          <h2 className="text-4xl font-semibold mb-2 text-[#FAFAFA]">Join the club and get the benefits</h2>
-          <p className="text-lg mb-6 text-[#FAFAFA]">Sign up for our newsletter and receive exclusive offers on new ranges, sales, pop-up stores, and more</p>
+     {/* Signup Section */}
+<section className="relative bg-cover bg-center w-full h-[444px]">
+  <div
+    className="absolute inset-0 w-full ml:w-[640px] h-[364px] mt-[52px] ml-24 sm:ml-0"
+    style={{
+      backgroundImage: "url('/sofa.png')",
+      backgroundSize: "cover", // Image ko container ke andar fit karne ke liye
+      backgroundPosition: "center", // Image ko center align karne ke liye
+      backgroundRepeat: "no-repeat", // Repeat ko disable karne ke liye
+    }}
+  ></div>
+  <div className="container mx-auto px-5 py-24 w-full sm:w-[571px] h-[114px] relative text-center text-[#2A254B]">
+    <h2 className="text-4xl font-semibold mb-2 text-[#FAFAFA]">
+      Join the club and get the benefits
+    </h2>
+    <p className="text-lg mb-6 text-[#FAFAFA]">
+      Sign up for our newsletter and receive exclusive offers on new ranges,
+      sales, pop-up stores, and more
+    </p>
 
-          <div className="flex justify-center mb-6 space-x-6">
-            <label className="flex items-center">
-              <input type="radio" name="offer" className="form-radio text-[#FAFAFA]" />
-              <span className="ml-2 text-[#FAFAFA]">Exclusive offers</span>
-            </label>
-            <label className="flex items-center">
-              <input type="radio" name="offer" className="form-radio text-[#FAFAFA]" />
-              <span className="ml-2 text-[#FAFAFA]">Free events</span>
-            </label>
-            <label className="flex items-center">
-              <input type="radio" name="offer" className="form-radio text-[#FAFAFA]" />
-              <span className="ml-2 text-[#FAFAFA]">Product giveaways</span>
-            </label>
-          </div>
+    <div className="flex justify-center mb-6 space-x-6">
+      <label className="flex items-center">
+        <input
+          type="radio"
+          name="offer"
+          className="form-radio text-[#FAFAFA]"
+        />
+        <span className="ml-2 text-[#FAFAFA]">Exclusive offers</span>
+      </label>
+      <label className="flex items-center">
+        <input
+          type="radio"
+          name="offer"
+          className="form-radio text-[#FAFAFA]"
+        />
+        <span className="ml-2 text-[#FAFAFA]">Free events</span>
+      </label>
+      <label className="flex items-center">
+        <input
+          type="radio"
+          name="offer"
+          className="form-radio text-[#FAFAFA]"
+        />
+        <span className="ml-2 text-[#FAFAFA]">Product giveaways</span>
+      </label>
+    </div>
 
-          <div className="flex flex-col sm:flex-row sm:w-1/2  md:w-1/3  lg:w-1/4  justify-center items-center mx-auto">
-            <input type="email" placeholder="Enter your email" className="px-4 py-3 mb-4 sm:mb-0 rounded-md w-[320px] sm:w-[500px]" />
-            <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md ">Subscribe</button>
-          </div>
-        </div>
-      </section>
+    <div className="flex flex-col sm:flex-row sm:w-1/2 md:w-1/3 lg:w-1/4 justify-center items-center mx-auto">
+      <input
+        type="email"
+        placeholder="Enter your email"
+        className="px-4 py-3 mb-4 sm:mb-0 rounded-md w-[320px] sm:w-[500px]"
+      />
+      <button className="bg-[#2A254B] text-white px-6 py-3 rounded-md ">
+        Subscribe
+      </button>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };
