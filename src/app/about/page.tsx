@@ -26,11 +26,12 @@ const About = () => {
           </div> 
 
           {/* Button Section */}
-          <div className=" text-right w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex justify-center items-center mx-auto"> 
-            <button className="bg-[#F9F9F9] w-[192px] h-[56px] text-[#2A254B] p-4 text-lg hover:bg-black hover:text-white"> 
-              View our products 
-            </button> 
-          </div> 
+          <div className="w-full flex justify-center items-center mx-auto"> 
+  <button className="bg-[#F9F9F9] w-full sm:w-[192px] h-[56px] text-[#2A254B] p-4 text-lg hover:bg-black hover:text-white rounded-lg"> 
+    View our products 
+  </button> 
+</div>
+
         </div> 
       </section> 
 
@@ -158,35 +159,33 @@ const About = () => {
       </div> 
 
       {/* Signup Section */}
-<section 
-  className="relative bg-cover bg-center w-full h-[481px] md:h-[550px]" 
-  style={{ backgroundImage: "url('bg1.jpg')" }} 
-> 
-  <div className="absolute inset-0 bg-black opacity-50"></div> 
-  <div className="container mx-auto px-4 py-24 flex justify-center items-center"> 
-    <div className="text-center text-white"> 
-      <h2 className="text-3xl sm:text-4xl font-normal leading-snug mb-6"> 
-        Stay updated on new offers 
-      </h2> 
-      <p className="text-lg mb-6"> 
-        Subscribe to our newsletter for the latest updates 
-      </p> 
+      <section 
+        className="relative bg-cover bg-center w-full h-[481px] md:h-[550px]" 
+        style={{ backgroundImage: "url('bg1.jpg')" }} 
+      > 
+        <div className="absolute inset-0 bg-black opacity-50"></div> 
+        <div className="container mx-auto px-4 py-24 flex justify-center items-center"> 
+          <div className="text-center text-white"> 
+            <h2 className="text-3xl sm:text-4xl font-normal leading-snug mb-6"> 
+              Stay updated on new offers 
+            </h2> 
+            <p className="text-lg mb-6"> 
+              Subscribe to our newsletter for the latest updates 
+            </p> 
 
-      <div className="flex flex-col md:flex-row justify-center items-center gap-4"> 
-        <input 
-          type="text" 
-          placeholder="Your email" 
-          className="p-4 w-full md:w-[350px] text-[#2A254B] bg-[#F9F9F9] border border-[#CCCCCC] rounded-lg" 
-        /> 
-        <button 
-          className="p-4 w-full md:w-[170px] h-[56px] text-[#2A254B] bg-gray-200 hover:bg-black hover:text-white text-lg rounded-lg"> 
-          Subscribe 
-        </button> 
-      </div> 
-    </div> 
-  </div> 
-</section>
-
+            <div className="flex justify-center items-center gap-4 md:flex md:justify-center  md:items-center"> 
+              <input 
+                type="text" 
+                placeholder="Your email" 
+                className="p-4 w-[350px] text-[#2A254B] bg-[#F9F9F9] border border-[#CCCCCC] rounded-lg" 
+              /> 
+              <button className="p-4 w-[170px] h-[56px] text-[#2A254B] bg-gray-200 hover:bg-black hover:text-white text-lg rounded-lg"> 
+                Subscribe 
+              </button> 
+            </div> 
+          </div> 
+        </div> 
+      </section> 
     </div> 
   ); 
 };

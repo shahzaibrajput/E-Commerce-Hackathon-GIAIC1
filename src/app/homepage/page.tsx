@@ -146,7 +146,7 @@ const HomePage = () => {
   <div
     className="absolute inset-0 w-full ml:w-[640px] h-[364px] mt-[52px] ml-24 sm:ml-0"
     style={{
-      backgroundImage: "url('/sofa.png')",
+      backgroundImage: "url('/bg1.jpg')",
       backgroundSize: "cover", // Image ko container ke andar fit karne ke liye
       backgroundPosition: "center", // Image ko center align karne ke liye
       backgroundRepeat: "no-repeat", // Repeat ko disable karne ke liye
