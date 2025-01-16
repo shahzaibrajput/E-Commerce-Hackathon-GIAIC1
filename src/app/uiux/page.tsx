@@ -7,10 +7,10 @@ const EcommerceUI = () => {
     <div className="bg-black text-white min-h-screen">
       {/* Header */}
       <header className="text-center py-10">
-        <h1 className="text-indigo-400 font-semibold text-xl">JUST UX</h1>
-        <h2 className="text-4xl font-bold mt-4">ecommerce</h2>
-        <h2 className="text-4xl font-bold">user interface kit</h2>
-        <h2 className="text-4xl font-bold">Syeda Uzma Ahmed (Roll No # 0044862)</h2>
+        <h1 className="text-indigo-400 font-semibold text-xl">UX</h1>
+        <h2 className="text-4xl font-bold mt-4">E-Commerce Website</h2>
+        <h2 className="text-4xl font-bold">UI</h2>
+        <h2 className="text-4xl font-bold">Shahzaib Rajput (ID : 00113362)</h2>
       </header>
 
       {/* Product Section */}
