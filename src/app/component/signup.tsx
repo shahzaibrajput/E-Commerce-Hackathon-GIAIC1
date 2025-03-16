@@ -12,7 +12,8 @@ const SignUp = () => {
           Join the club and get the benefits
         </h2>
         <p className="text-lg mb-6 md:text-xl lg:text-xl">
-          Sign up for our newsletter and receive exclusive offers on new ranges&apo;, sales&apo;, pop-up stores&apo;, and more
+          Sign up for our newsletter and receive exclusive offers on new
+          ranges&apo;, sales&apo;, pop-up stores&apo;, and more
         </p>
 
         <div className="flex justify-center mb-6 space-x-6 flex-wrap">

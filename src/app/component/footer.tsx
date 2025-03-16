@@ -69,14 +69,14 @@ const Footer = () => {
         {/* Footer Bottom Section */}
         <div className="bg-[#2A254B] py-4">
           <div className="container mx-auto flex justify-between items-center">
-            <p className="text-sm sm:ml-10">© Copyright 2024 Shahzaib_Rajput</p>
+            <p className="text-sm sm:ml-10">© Copyright 2025 Shahzaib_Rajput</p>
             <div className="flex space-x-4 text-2xl sm:mr-10 sm:space-x-2 ">
-              <a href="#" className="hover:text-gray-400"><FaFacebookSquare /></a>
-              <a href="#" className="hover:text-gray-400"><RiInstagramLine /></a>
-              <a href="#" className="hover:text-gray-400"><SlSocialSkype /></a>
-              <a href="#" className="hover:text-gray-400"><SlSocialTwitter /></a>
-              <a href="#" className="hover:text-gray-400"><FaLinkedin /></a>
-              <a href="#" className="hover:text-gray-400"><SlSocialPintarest /></a>
+              <a href="https://www.facebook.com/share/18LnPDuf1b/" className="hover:text-gray-400"><FaFacebookSquare /></a>
+              <a href="https://www.instagram.com/shahzaibrajput240?igsh=MWV5NzQ2bmJieHF3dg==" className="hover:text-gray-400"><RiInstagramLine /></a>
+              <a href="https://join.skype.com/invite/pvnrR0hGQdGS" className="hover:text-gray-400"><SlSocialSkype /></a>
+              <a href="@ShahzaibRa96024" className="hover:text-gray-400"><SlSocialTwitter /></a>
+              <a href="https://www.linkedin.com/in/shahzaib-rajput-93360628b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-gray-400"><FaLinkedin /></a>
+              <a href="https://pin.it/2C3p5AuQq" className="hover:text-gray-400"><SlSocialPintarest /></a>
             </div>
           </div>
         </div>

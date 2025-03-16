@@ -22,7 +22,7 @@ const HomePage = () => {
               Luxury homeware for people who love timeless design quality
             </h2>
             <p className="mt-6 text-lg leading-relaxed">
-              Shop the new Spring 2022 collection today
+              Shop the new Spring 2025 collection today
             </p>
             <button className="mt-6 p-3 px-6 bg-[#F9F9F926] border border-[#22202E] text-[#22202E] hover:bg-[#22202E] hover:text-white transition">
               View collection
@@ -120,7 +120,7 @@ const HomePage = () => {
               <div>
                 <h2 className="text-2xl sm:text-3xl font-normal leading-snug mb-4">It started with a small idea</h2>
                 <p className="text-[16px] font-[400] sm:text-lg leading-relaxed mb-6">
-                  A global brand with local beginnings our story began in a small studio in South London in early 2014 </p>
+                  A global brand with local beginnings our story began in a small studio in South London in early 2025 </p>
               </div>
               <button className="p-4 w-[170px] h-[56px] text-[#2A254B] bg-gray-200 border-0 focus:outline-none hover:bg-gray-400 hover:text-gray-900 text-lg self-start">
                 View collection

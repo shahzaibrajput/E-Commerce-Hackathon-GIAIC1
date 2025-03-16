@@ -32,13 +32,15 @@ const Header = () => {
 
         {/* Cart and Profile Icons */}
         <div className="hidden md:flex items-center space-x-4  ">
-        <a href="/shopping" className="hover:text-black">
+        <a href="/cart" className="hover:text-black sm:ml-auto  md:ml-auto flex flex-wrap items-center">
           <span className="text-gray-900 ">
-            <IoCartOutline size={24} />
+            {/* <IoCartOutline size={24} /> */}
           </span></a>
+          <a href="/cart" className="hover:text-black">
           <span className="text-gray-900 ">
-            <FaRegUserCircle size={24} />
+            {/* <FaRegUserCircle size={24} /> */}
           </span>
+          </a>
         </div>
 
         {/* Hamburger Menu */}
@@ -62,16 +64,16 @@ const Header = () => {
           <a href="/productlist" className="hover:text-black">
             Tables
           </a>
-          <a href="/about" className="hover:text-black">
+          <a href="/productlist" className="hover:text-black">
             Chairs
           </a>
-          <a href="/product" className="hover:text-black">
+          <a href="/productlist" className="hover:text-black">
             Crockery
           </a>
-          <a href="/shopping" className="hover:text-black">
+          <a href="/productlist" className="hover:text-black">
             Tableware
           </a>
-          <a href="/uiux" className="hover:text-black">
+          <a href="/productlist" className="hover:text-black">
             Cutlery
           </a>
         </div>
@@ -93,13 +95,13 @@ const Header = () => {
             <a href="/about" className="block hover:text-indigo-600">
               Chairs
             </a>
-            <a href="/product" className="block hover:text-indigo-600">
+            <a href="/productlist" className="block hover:text-indigo-600">
               Crockery
             </a>
-            <a href="/shopping" className="block hover:text-indigo-600">
+            <a href="/productlist" className="block hover:text-indigo-600">
               Tableware
             </a>
-            <a href="/uiux" className="block hover:text-indigo-600">
+            <a href="/productlist" className="block hover:text-indigo-600">
               Cutlery
             </a>
           </div>
