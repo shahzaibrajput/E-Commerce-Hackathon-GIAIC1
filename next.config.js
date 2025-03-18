@@ -33,3 +33,11 @@ const nextConfig = {
 };
 
 module.exports = nextConfig; // Use module.exports for CommonJS
+
+
+//ye abhi extra add kia he prerendering error ky lia 
+// module.exports = {
+//   experimental: {
+//     missingSuspenseWithCSRBailout: false,
+//   },
+// }

@@ -9,7 +9,7 @@ import {client} from "../sanity/lib/client"
 import  SignUp from "./component/signup";
 import About from "./about/page";
 import HomePage from "./homepage/page";
-import Page from "./product/page";
+// import Page from "./product/page";
 import ProductListing from "./productlist/page";
 import EcommerceUI from "./uiux/page"
 
