@@ -5,7 +5,17 @@ import { LuSprout } from "react-icons/lu";
 import { GoCreditCard } from "react-icons/go";
 import Image from 'next/image';
 
+
+// export const metadata = {
+//   title: "About Us"
+// }
+
+export const metadata = {
+  title: "Ceramics"
+}
+
 const HomePage = () => {
+
   return (
     <div>
       {/* Full-width Image as Background */}

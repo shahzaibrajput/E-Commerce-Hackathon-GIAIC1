@@ -14,7 +14,9 @@ import ProductListing from "./productlist/page";
 import EcommerceUI from "./uiux/page"
 
 // import { Component } from "react";/
-
+export const metadata = {
+  title: "Home"
+}
 
 
 export default async function Home() {

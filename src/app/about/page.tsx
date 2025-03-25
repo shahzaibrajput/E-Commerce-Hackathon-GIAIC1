@@ -6,6 +6,11 @@ import { LuSprout } from "react-icons/lu";
 import { GoCreditCard } from "react-icons/go"; 
 import Image from "next/image"; // Importing the Image component from Next.js
 
+
+export const metadata = {
+  title: "About"
+}
+
 const About = () => { 
   return ( 
     <div> 

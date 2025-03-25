@@ -54,6 +54,8 @@
 //   );
 // };
 
+
+
 // export default ProductListing;
 //Applying add to card functionalities
 "use client";
@@ -67,6 +69,7 @@ import Link from "next/link";
 import { addToCart } from "../actions/actions";
 import Swal from "sweetalert2";
 import StarRating from "../AllRating/Star";
+
 
 
 const ProductListing = () => {

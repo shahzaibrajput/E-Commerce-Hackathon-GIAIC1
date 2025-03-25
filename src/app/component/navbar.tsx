@@ -118,10 +118,10 @@ const Navbar = () => {
         {/* Desktop Navigation Links */}
         <ul className="hidden md:flex space-x-6 lg:p-5">
           <li className="hover:text-gray-500 transition duration-300">
-            <Link href="/">Home Page</Link>
+            <Link href="/">Home </Link>
           </li>
           <li className="hover:text-gray-500 transition duration-300">
-            <Link href="/about">About Page</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="hover:text-gray-500 transition duration-300">
             <Link href="/uiux">Author</Link>
@@ -171,7 +171,7 @@ const Navbar = () => {
             About 
           </Link>
           <Link href="/uiux" className="block hover:text-gray-500">
-            UI/UX
+            Author
           </Link>
         </div>
       )}

@@ -1,6 +1,9 @@
 import React from "react";
 import Image from "next/image"; // Import Image from next/image
 
+
+
+
 const Hero = () => {
   return (
     <div className="container mx-auto px-6 md:px-11 mt-10">

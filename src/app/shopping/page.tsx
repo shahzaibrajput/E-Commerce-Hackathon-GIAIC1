@@ -237,14 +237,12 @@
 import React, { useEffect, useState } from "react";
 import { Product } from "../../../types/products";
 import Image from "next/image";
-import {
-  getCartItems,
-  removeFromCart,
-  updateCartQuantity,
-} from "../actions/actions";
+import {getCartItems,removeFromCart,updateCartQuantity} from "../actions/actions";
 import Swal from "sweetalert2";
 import { Trash2 } from "lucide-react"; // Attractive Delete Icon
 import { urlFor } from "@/sanity/lib/image";
+
+
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState<Product[]>([]);

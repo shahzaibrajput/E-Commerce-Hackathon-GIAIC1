@@ -162,6 +162,9 @@ import { Trash2 } from "lucide-react"; // Attractive Delete Icon
 import { urlFor } from "@/sanity/lib/image";
 import { useRouter } from "next/navigation";
 
+
+
+
 const CartPage = () => {
   const [cartItems, setCartItems] = useState<Product[]>([]);
 

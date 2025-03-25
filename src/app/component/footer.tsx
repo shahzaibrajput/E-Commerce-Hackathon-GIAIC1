@@ -54,11 +54,11 @@ const Footer = () => {
               <div className="flex flex-wrap justify-center space-x-2">
                 <input
                   type="email"
-                  placeholder="your@email.com"
+                  placeholder="shahzaibrajput240@email.com"
                   className="w-full sm:w-96  p-3 text-lg bg-[#dedbdb] mb-2 sm:mb-0 md:w-full lg:w-80" // Ensuring full width on mobile
                   style={{ height: '50px' }}
                 />
-                <button className="bg-[#FAFAFA] text-[#2A254B] w-full sm:w-[90px] p-3 sm:p-1 hover:bg-[#dedbdb] sm:mt-2">
+                <button className="bg-[#FAFAFA] text-[#2A254B] w-full sm:w-[90px] p-3 sm:p-1 hover:bg-[#dedbdb] sm:mt-0">
                   Sign Up
                 </button>
               </div>

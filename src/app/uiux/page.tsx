@@ -195,7 +195,9 @@
 
 import Image from "next/image";
 
-const EcommerceUI = () => {
+
+
+function EcommerceUI() {
   return (
     <>
       <section className="py-8 text-white bg-slate-900 mb-25">
@@ -247,8 +249,7 @@ const EcommerceUI = () => {
             src="/images/mycoverpi.jpeg"
             alt="Shahzaib Rajput"
             width={64}
-            height={68}
-          />
+            height={68} />
           <div>
             <h3 className="text-white text-xl font-bold">Shahzaib Rajput</h3>
             <p className="text-white">
@@ -270,14 +271,15 @@ const EcommerceUI = () => {
           Malik, a renowned guru in AI and Data Science.
         </p>
 
-        <div className="mt-4 space-x-3 flex flex-wrap">
-          <a
+        <div className="mt-4 space-x-3 flex flex-wrap items-center">
+        {/* <div className="flex items-center gap-3 whitespace-nowrap mt-2"> */}
+          {/* <a
             href="https://www.linkedin.com/in/shahzaib-rajput-93360628b"
             target="_blank"
             className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-black transition duration-300"
           >
             LinkedIn
-          </a>
+          </a> */}
           <a
             href="https://www.instagram.com/shahzaibrajput240"
             target="_blank"
@@ -303,6 +305,6 @@ const EcommerceUI = () => {
       </div>
     </>
   );
-};
+}
 
 export default EcommerceUI;

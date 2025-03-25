@@ -1,6 +1,9 @@
 import React from 'react';
 import Image from 'next/image'; // Import the Image component
 
+
+
+
 const Product = () => {
   return (
     <div className="w-full h-auto bg-[#FAFAFA] mt-11">

@@ -13,7 +13,7 @@ const SignUp = () => {
         </h2>
         <p className="text-lg mb-6 md:text-xl lg:text-xl">
           Sign up for our newsletter and receive exclusive offers on new
-          ranges&apo;, sales&apo;, pop-up stores&apo;, and more
+          ranges | sales | pop-up stores and more
         </p>
 
         <div className="flex justify-center mb-6 space-x-6 flex-wrap">
@@ -49,7 +49,7 @@ const SignUp = () => {
         <div className="flex justify-center flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <input
             type="email"
-            placeholder="your@email.com"
+            placeholder="shahzaibrajput240@gmail.com"
             className="w-full sm:w-96 lg:w-96 p-4 text-lg bg-[#F9F9F9] rounded-md"
             aria-label="Email address"
           />
